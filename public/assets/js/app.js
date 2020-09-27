@@ -59,7 +59,7 @@ function articleCards() {
 
       let saveBtn = $("<button>")
         .addClass("btn btn-primary")
-        .attr({ "data-id": data[i]._id })
+        .attr({ type: "button" })
         .text("Save Article");
 
       cardBody.append(cardTitle);
